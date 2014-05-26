@@ -550,7 +550,7 @@
     <!-- From: file:/Users/rajatdeshpande/Documents/workspace/ParseStarterProject/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="app_name">ParseStarterProject</string>
+    <string name="app_name">Foodeato</string>
     <!-- From: file:/Users/rajatdeshpande/Documents/workspace/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment />
 
@@ -561,7 +561,7 @@
     <!-- From: file:/Users/rajatdeshpande/Documents/workspace/ParseStarterProject/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="hello">Hello World, Foodeato!</string>
     <!-- From: file:/Users/rajatdeshpande/Documents/workspace/ParseStarterProject/res/values/strings_activity_login.xml -->
     <eat-comment />
 

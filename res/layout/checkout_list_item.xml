@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borders"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/image_button_day_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/text_view_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_button_day_pic"
+            android:text="ABC Thali"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_delivery_slot"
+            android:layout_below="@+id/text_view_item_name"
+            android:text="Delivery Slot"
+            android:layout_alignLeft="@+id/text_view_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text_view_item_name"
+            android:layout_alignBottom="@+id/text_view_item_name"
+            android:layout_marginLeft="50dp"
+            android:text="\u20B9 200"
+            android:id="@+id/text_view_price" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/edit_text_quantity" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
